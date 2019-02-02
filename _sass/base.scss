@@ -1,9 +1,3 @@
-$blue           : #22678C;
-$turquoise      : #75716f;
-$turq           : rgb(109, 169, 171);
-$lighterBlue    : #48525C;
-$yellow         : #ffa949;
-
 /* general stuff */
 
 html,
@@ -13,26 +7,12 @@ body {
    height:100%;
 }
 
-/* grind positioning */
-
-#container {
-    display: grid;
-    min-height:100%;
-    grid-template-rows: 1fr 4fr 3fr;
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-header{}
-main{}
-footer{}
-
-header, footer {
-    grid-column: 1 / -1;
-    /* needed for the floated layout */
-    clear: both;
-}
-
-/* styling the elements */
-
-footer {
-    background-color: $turq;
+a {
+    text-decoration: none;
 }

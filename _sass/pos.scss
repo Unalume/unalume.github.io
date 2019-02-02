@@ -1,0 +1,21 @@
+/* grid positioning */
+
+#container {
+    display: grid;
+    min-height:100%;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 8fr 5fr;
+}
+
+header {
+    grid-column: auto;
+    grid-row: 1;
+}
+main {}
+footer{}
+
+/* horizontal header nav list */
+.title, nav, ul, li {
+    display: inline;
+}
+
