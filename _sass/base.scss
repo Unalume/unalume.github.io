@@ -16,3 +16,8 @@ ul {
 a {
     text-decoration: none;
 }
+
+/* horizontal header nav list */
+.title, nav, ul, li {
+    display: inline;
+}

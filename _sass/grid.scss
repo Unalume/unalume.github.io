@@ -1,0 +1,15 @@
+/* grid positioning */
+
+#container {
+    display: grid;
+    min-height:100%;
+    /*grid-template-columns: 1fr 2fr 1fr;*/
+    grid-template-rows: 1fr 2fr 3fr;
+}
+
+header {
+    /* grid-column: auto; */
+    /* grid-row: 1; */
+}
+main {}
+footer{}
