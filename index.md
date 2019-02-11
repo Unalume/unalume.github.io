@@ -4,7 +4,6 @@ layout: default
 title: Home
 ---
 
-# {{ page.title }}
 Not what you expected to find?
 We know...,
 This is how our work in progress currently looks like.
