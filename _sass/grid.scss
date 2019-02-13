@@ -1,17 +1,25 @@
 /* grid positioning */
 
-
-
 header {
     grid-area: header;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    nav {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
 }
 
 main {
     grid-area: content;
 }
+
 footer{
     grid-area: footer;
 }
+
 #container {
     display: grid;
     min-height:100%;
@@ -21,13 +29,4 @@ footer{
            "....... content ......."
            "footer footer footer";
     grid-template-rows: 1fr 2fr 3fr;
-}
-
-.wrapper {
-    display: grid;
-grid-gap: 10px;
-    grid-template-columns: 120px  120px  120px;
-    
-    background-color: #fff;
-    color: #444;
 }
