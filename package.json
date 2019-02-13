@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/webpack --watch | bundle exec jekyll serve --livereload --incremental",
+    "build": "./node_modules/.bin/webpack | bundle exec jekyll build"
   },
   "repository": {
     "type": "git",
@@ -22,5 +24,8 @@
     "babel-preset-env": "^1.7.0",
     "webpack": "^4.29.3",
     "webpack-cli": "^3.2.3"
+  }
+  "dependencies": {
+    "highlight.js": "^9.12.0"
   }
 }
